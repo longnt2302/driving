@@ -3,3 +3,18 @@
   height: 100%;
   object-fit: cover;
 }
+
+.social ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.social {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.service-section .owl-nav button {
+  display: none;
+}
